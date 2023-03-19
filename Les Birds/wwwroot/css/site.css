@@ -1,0 +1,35 @@
+html, body {
+  font-size: 14px;
+  height:100%;
+  width:100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/*html {
+  position: relative;
+  min-height: 100%;
+}*/
+
+body {
+    margin-bottom: 60px;
+    background: linear-gradient(100deg, rgba(255, 255, 255, 0.6), rgba(255,255,255,0.2)), url("../birds/images/06bb2793-ca8a-4214-aac2-d608387d5556.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+main {
+
+    width:100%;
+    height:800px;
+}
+
+
+.birdsfile{
+width:200px;
+height:150px;
+object-fit:cover;
+}
